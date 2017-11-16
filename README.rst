@@ -17,7 +17,7 @@ Quickstart
 ~~~~~~~~~~
 
 ::
-    #Install and build requirements
+    # Install and build requirements
     $ sudo ./setup.py install
     $ sudo ./setup.py build
 
