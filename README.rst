@@ -17,6 +17,9 @@ Quickstart
 ~~~~~~~~~~
 
 ::
+    #Install and build requirements
+    $ sudo ./setup.py install
+    $ sudo ./setup.py build
 
     # Create a token (only on first run)
     $ ./vmpooler_client_app.py token create
