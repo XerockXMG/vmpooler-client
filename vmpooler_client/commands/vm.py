@@ -134,6 +134,7 @@ def get(args, config):
   print('Hostname: {0}'.format(hostname))
   info = info_vm(get_vmpooler_hostname(config), hostname, get_auth_token(config))
   print('IP: {0}'.format(info['ip']))
+  print('Template: {0}'.format(info['template']))
 
 def info(args, config):
   """Main routine for the info subcommand.
